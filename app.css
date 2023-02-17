@@ -1,0 +1,106 @@
+body{
+    background:rgb(247, 240, 212) ;
+}
+
+#memeG{
+    text-align: left;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: ivory;
+    border-color:blanchedalmond;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: ivory;
+    border-radius: 5px;
+    border-color: blanchedalmond ;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family:'Courier New', Courier, monospace; 
+    background-color: rgb(247, 240, 212);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.container{
+    display: block;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic{
+    display: block;
+    margin:auto;
+}
+
+.container .textBtm{
+    position:absolute;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 2;
+
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-family: sans-serif;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .textTop{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 3;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-family: sans-serif;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .rmvBtn{
+    background-color: ivory;
+    top:100%;
+    color:black;
+}
+
+.container img{
+    max-width: 500px;
+    width: 400px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.url{
+    color: red;
+}
+
+.letter{
+    transition: color 1000ms;
+}
